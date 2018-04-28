@@ -12,5 +12,4 @@ def isPalindrome(s): # Complxty O(n/2)
     for i in range(len(s)//2):
         if s[i] is not s[-1-i]:
             return False
-        print (s[i], "is", s[-1-i])
     return True
