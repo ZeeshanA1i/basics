@@ -9,6 +9,7 @@ def isPalindrome(s): # Complxty O(n/2)
         True: if s is a palindrome
         False: if s is not a palindrome
     '''
+    s = str(s)
     for i in range(len(s)//2):
         if s[i] is not s[-1-i]:
             return False
