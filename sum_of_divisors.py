@@ -5,15 +5,17 @@ def S(n):
     OUTPUT:
         Sum: sum of all the complete-devisors of 'n'
     '''
+    if type(n) != int:
+        return -1
     Sum = n
-    for i in range(1, n//2+1):
-        if n%i == 0:
+    for i in range(1, n//2 + 1):
+        if n % i == 0:
             Sum += i
     return Sum
 
 # Find the smallest natual number such that S(n) = 2018 (mod n)
 for n in range(999, 9999):
-    if S(n)%n == 2018:
+    if S(n) % n == 2018:
         print ("S(", n ,") =", S(n), '=', 2018, "(mod", n, ')')
         break
         
