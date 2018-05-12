@@ -6,8 +6,6 @@ def minPalC(s, Dict = {'': 0}):
         of palindromes constituting corresponding keys
     OUTPUT:
         int: minimum number of palindromes constituting 's'
-    TEST CASES:
-        
     '''
     # Dynamic programing is used with the help of a dict.
 
