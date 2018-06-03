@@ -2,8 +2,7 @@ def minPalC(s, Dict = {'': 0}):
     '''
     INPUT:
         s: string
-        Dict: a dictionary storing values as min number
-        of palindromes constituting corresponding keys
+        Dict: a dictionary storing values as min number of palindromes constituting corresponding keys
     OUTPUT:
         int: minimum number of palindromes constituting 's'
     '''
