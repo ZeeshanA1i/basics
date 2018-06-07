@@ -13,4 +13,4 @@ def S(n, D = {}):
     return D[n]
 
 # Function validation and finding required answer
-print (S(20) == 7, S(18) == 7, S(999999999) == 367)
+print (S(20) == 7, S(18) == 7, S(999999999)) # True True 367
