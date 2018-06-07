@@ -12,6 +12,5 @@ def S(n, D = {}):
     D[n] = SUM
     return D[n]
 
-S(999999999) == 367
-S(20) == 7
-S(18) == 7
+# Function validation and finding required answer
+print (S(20) == 7, S(18) == 7, S(999999999) == 367)
